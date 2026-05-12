@@ -73,7 +73,7 @@ Use your judgment — the heading should match what the source is doing. The exa
 | Rigid "Contributions & Innovations" heading on non-papers | Adapt the heading to the source type |
 | Kebab-case wikilinks | Use title case with spaces: `[[Scaling Laws]]` not `[[scaling-laws]]` |
 
-## Example — `/tldr https://arxiv.org/abs/1706.03762`
+## Example — `/wikify https://arxiv.org/abs/1706.03762`
 
 ```markdown
 ---

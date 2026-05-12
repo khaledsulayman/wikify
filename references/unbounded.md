@@ -35,7 +35,7 @@ are spatial or flow-based (e.g., data pipelines, request paths).
 ## Guidelines
 
 - **8-15 key concepts**, ranked by importance to the topic. Resist being comprehensive. If the topic is very broad, pick the 10 most important and mention the map is intentionally scoped.
-- **Concepts over products, but products are fine when relevant.** Prefer `[[Sidecar Proxy]]` over `[[Envoy]]` when the concept is what matters. But a `/tldr podman` should absolutely mention `[[Docker]]` — don't avoid product names when they're central to understanding the topic.
+- **Concepts over products, but products are fine when relevant.** Prefer `[[Sidecar Proxy]]` over `[[Envoy]]` when the concept is what matters. But a `/wikify podman` should absolutely mention `[[Docker]]` — don't avoid product names when they're central to understanding the topic.
 - **Adjacent Topics** maps the neighborhood — related domains the user might want to explore next. Keep it to 2-4 links. These are broader than Key Concepts and help the user see where this topic sits in the larger landscape.
 - **How They Connect** can be prose, an ASCII diagram, or both. Diagrams are especially useful for topics with clear component relationships or data flows.
 - **References** — only cite sources you actually consulted while building this concept map (web pages fetched, articles read via search). If you worked entirely from memory, omit the References section. Never fabricate or guess at URLs to fill the section out.
@@ -49,7 +49,7 @@ are spatial or flow-based (e.g., data pipelines, request paths).
 | Concepts not ranked by importance | Most essential concepts first, secondary ones later |
 | Kebab-case wikilinks | Use title case with spaces: `[[CAP Theorem]]` not `[[cap-theorem]]` |
 
-## Example — `/tldr service-mesh`
+## Example — `/wikify service-mesh`
 
 ```markdown
 ---
