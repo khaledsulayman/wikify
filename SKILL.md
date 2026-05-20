@@ -21,7 +21,9 @@ The argument determines which reference file to follow:
 |-------|------|--------|
 | Plain topic string (`service-mesh`, `kubernetes`) | Unbounded | Read `references/unbounded.md` |
 | PDF file path, arxiv/doi URL | Bounded | Read `references/bounded.md` |
-| General URL | Read first | If it's a single document (blog post, RFC, paper), read `references/bounded.md`. If it's a landing page or docs site, read `references/unbounded.md`. |
+| General URL → single document (blog post, RFC, paper) | Bounded | Read `references/bounded.md` |
+| General URL → chaptered site (book with chapter pages, multi-part series) | Chaptered | Read `references/chaptered.md` |
+| PDF with clear chapter structure | Chaptered | Read `references/chaptered.md` |
 
 After detecting the mode, read the appropriate reference file and follow its format exactly.
 
@@ -33,7 +35,7 @@ If a concept map already exists for this topic, tell the user and ask whether to
 
 ## Shared Rules
 
-These apply to both modes.
+These apply to all modes.
 
 ### Calibrating Abstraction
 
